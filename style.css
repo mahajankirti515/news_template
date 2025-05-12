@@ -1,0 +1,56 @@
+.nav-link:hover {
+  color: #f39c12 !important;
+}
+
+/* Hamburger Lines */
+.custom-hamburger .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animation on active class */
+.custom-hamburger.active .bar:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 5px);
+}
+
+.custom-hamburger.active .bar:nth-child(2) {
+  transform: rotate(-45deg) translate(3px, -3px);
+}
+
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-news {
+  font-family: "Anton", sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-classic {
+  font-family: "Dancing Script", cursive;
+  font-size: 38px;
+  color: #aaa;
+  position: absolute;
+  top: 20px; /* adjust for overlap */
+  left: 0px; /* adjust for alignment */
+  z-index: 1;
+}
+
+.featured-banner:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
