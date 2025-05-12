@@ -1,3 +1,8 @@
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
 .nav-link:hover {
   color: #f39c12 !important;
 }
@@ -53,4 +58,26 @@
 .card:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
+}
+
+.list-group-item span {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.carousel-inner img {
+  border-radius: 10px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+  filter: invert(1); /* white icon */
 }
