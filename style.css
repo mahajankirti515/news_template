@@ -73,7 +73,6 @@ h4 {
   border-radius: 10px;
 }
 
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   width: 40px;
@@ -82,56 +81,55 @@ h4 {
   filter: invert(1); /* white icon */
 }
 
- .news-card {
-    position: relative;
-    overflow: hidden;
-    height: 150px;
-  }
+.news-card {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
 
-  .news-card img,
-  .featured-news img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.news-card img,
+.featured-news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .news-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 0.75rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-    color: white;
-  }
+.news-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.75rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+}
 
-  .featured-news {
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    min-height: 310px;
-  }
+.featured-news {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 310px;
+}
 
-  .featured-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 1.25rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-    color: white;
-  }
+.featured-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+}
 
-  .category-label {
-    font-size: 0.8rem;
-    color: #ffc107;
-  }
+.category-label {
+  font-size: 0.8rem;
+  color: #ffc107;
+}
 
-  .news-title {
-    font-size: 0.95rem;
-    font-weight: 500;
-    margin-bottom: 0.2rem;
-  }
+.news-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
 
-  
 img {
   border-radius: 4px;
 }
@@ -143,7 +141,146 @@ img {
   font-size: 12px;
 }
 
-.k_container{
-  width: 100%;
+/* News Categories Section */
+
+h6.fw-bold {
+  line-height: 1.4;
+  font-size: 16px;
 }
 
+.small p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.section-title .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffb100; /* Yellow color */
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.section-title .dot {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.economy .dot {
+  background-color: #f9a825;
+}
+.international .dot {
+  background-color: orange;
+}
+.dialogues .section-title {
+  background-color: #000;
+  color: white;
+  padding: 5px 10px;
+}
+.dialogues .dot {
+  background-color: #f9a825;
+}
+.post-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.post-meta {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 5px;
+}
+.small-thumb img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dot-economy {
+  background-color: #f9a825;
+} /* Orange-yellow */
+.dot-international {
+  background-color: #f9a825;
+}
+.dot-dialogues {
+  background-color: #000;
+}
+
+.global .dot {
+  background-color: #f9a825;
+}
+.national .dot {
+  background-color: orange;
+}
+.post-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.post-meta {
+  font-size: 0.8rem;
+  color: gray;
+}
+.thumb-small img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.thumb-side img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.opinion-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-left: 6px solid orange;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.opinion-text {
+  font-size: 0.96rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+}
+
+.highlight-orange {
+  color: #f6a900;
+}
+
+.highlight-blue {
+  color: #0066cc;
+}
