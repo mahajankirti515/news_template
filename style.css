@@ -284,3 +284,35 @@ h6.fw-bold {
 .highlight-blue {
   color: #0066cc;
 }
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  font-size: 12px;
+}
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-logo span {
+  font-family: "Cursive";
+  font-size: 16px;
+  display: block;
+}
+.social-icons a {
+  margin-right: 10px;
+  color: #ccc;
+}
+.social-icons a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+}
